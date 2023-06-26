@@ -1,0 +1,75 @@
+.title{
+    font-size: 12px;
+}
+.container{
+    background-color: cyan;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;   
+    align-items: center; 
+    
+}
+.container h1{
+    width: 40%;
+}
+.maincontainer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+
+}
+.box{
+    border: groove 2px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.addtask{
+border: groove 2px ;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10vh;
+position: sticky ;
+top: 0%;
+background-color: white;
+
+}
+.addtask input{
+    width: 350px;
+    height: 30px;
+    border-radius: 8px;
+    
+   
+}
+.addtask button{
+    
+    background-color: white;
+    border-radius: 8px;
+    height: 35px;
+}
+.container input{
+    height: 35px;
+    width: 350px;
+    border-radius: 8px;
+}
+.container button{
+    height: 35px;
+    width: 150px;
+    border-radius: 8px;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    
+}
+.filter button{
+    height: 35px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: white;
+}
